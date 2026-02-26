@@ -4,7 +4,7 @@ echo "Updating sources.list..."
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list > /dev/null
 
 echo "Updating system..."
-sudo apt update -y
+sudo apt update
 sudo apt full-upgrade -y
 
 echo "Installing packages..."
